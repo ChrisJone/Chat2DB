@@ -129,13 +129,6 @@
                 <version>0.2.0</version>
             </dependency>
 
-            <!-- 自带数据库 -->
-            <dependency>
-                <groupId>com.h2database</groupId>
-                <artifactId>h2</artifactId>
-                <version>2.1.214</version>
-            </dependency>
-
             <!-- mybatis-plus -->
             <dependency>
                 <groupId>com.baomidou</groupId>
@@ -185,7 +178,12 @@
                 <artifactId>forest-spring-boot3-starter</artifactId>
                 <version>1.5.32</version>
             </dependency>
-
+            <!-- 数据源驱动包 -->
+            <dependency>
+                <groupId>mysql</groupId>
+                <artifactId>mysql-connector-java</artifactId>
+                <version>8.0.32</version>
+            </dependency>
             <!-- 数据库版本管理 -->
             <dependency>
                 <groupId>org.flywaydb</groupId>
